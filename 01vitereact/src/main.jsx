@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+
+
 function myApp(){
+  const username = "chai aur code";
   return(
     <div>
-      <h1>Custom app chai or code</h1>
+      <h1>{username}</h1>
     </div>
   )
 }
